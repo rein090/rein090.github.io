@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.content-block {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* Стили для нумерованного списка */
+ol {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+ol li {
+  margin-bottom: 12px;
+}
+
+/* Стили для маркированного списка */
+ul {
+  padding-left: 40px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  list-style-type: "- ";
+  padding-left: 4px;
+}
+
+/* Особые стили для вложенных списков */
+.content-block ul {
+  padding-left: 20px;
+}
+
+.content-block ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+.content-block ul li:before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
