@@ -1,4 +1,3 @@
-/* styles.css */
 body {
   font-family: "Arial", sans-serif;
   max-width: 800px;
@@ -35,7 +34,6 @@ hr {
   line-height: 1.6;
 }
 
-/* Стили для нумерованного списка */
 ol {
   padding-left: 20px;
   margin-bottom: 16px;
@@ -45,7 +43,6 @@ ol li {
   margin-bottom: 12px;
 }
 
-/* Стили для маркированного списка */
 ul {
   padding-left: 40px;
   margin-top: 8px;
@@ -58,7 +55,6 @@ ul li {
   padding-left: 4px;
 }
 
-/* Особые стили для вложенных списков */
 .content-block ul {
   padding-left: 20px;
 }
